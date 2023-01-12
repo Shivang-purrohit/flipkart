@@ -1,4 +1,11 @@
 import React from 'react'
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import Tippy from '@tippyjs/react'
+import 'tippy.js/dist/tippy.css'
+import 'tippy.js/themes/light.css'
+import MoreTippy from './MoreTippy';
+import LoginTippy from './LoginTippy';
+
 
 export const Navbar = () => {
   return (
@@ -21,27 +28,40 @@ export const Navbar = () => {
         <li className="nav-item">
 
         <li className="nav-item navCompo">
+          <Tippy content={<LoginTippy/>}
+          interactive={true}
+          theme="light"
+          offset={[5,13]}>
           <button className='navLoginbtn'>Login</button>
+          </Tippy>
+        </li>
+
+        <li className="nav-item navCompo">
+        <a className="nav-link become  color1 space " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Become a seller
+          </a>
+          
         </li>
      
 
         </li>
           <li className="nav-item dropdown navCompo">
-          <a className="nav-link dropdown-toggle color1 space " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           More
-          </a>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
-            <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+          <Tippy
+          content={<MoreTippy/>}
+          interactive={true}
+          theme="light"
+          offset={[5,18]}
+          >
+          <p className="color1 space move" >
+           More <KeyboardArrowDownIcon/> </p> 
+           </Tippy>
         </li>
         <li className="nav-item navCompo">
           <a className="nav-link color1" href="#"><i class="fa-solid cart-icon fa-cart-shopping"></i>Cart</a>
         </li>
         
       </ul>
+      
       
     </div>
   </div>
