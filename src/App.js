@@ -1,23 +1,36 @@
 import './App.css';
+import Card from './Card';
+import FilterPage from './FilterPage';
 import { Navbar } from './Navbar';
-import  flipdatas  from './Data.json'
-function App() {
+import Records from './records.json'
+function App(props) {
   return (
     <div className="App">
     <Navbar/>
-    <div>
+    <div className='filterbg'>
+    <FilterPage/>
+    </div>
+  
+   {/*  <div style={{display: "flex", flexWrap: "wrap"}}>
       {
-       flipdatas.map( item => {
+       Records.map( record => {
           return(
-            <div>
-              {flipdatas.name}
-            </div>
+            <Card 
+            name={record.name}
+            brand={record.brand}
+            image={record.image}
+            price={record.price}
+            mainPrice={record.mainPrice}
+            discountPercent={record.discountPercent}
+            quantity={record.quantity}
+            sizes={record.sizes}
+            />
           )
         }
          
         )
       }
-    </div>
+    </div> */}
 
     </div>
   );
