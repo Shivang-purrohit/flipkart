@@ -8,7 +8,7 @@
     "mainPrice":2000,
     "discountPercent": 55,
     "quantity": 1,
-    "sizes": ["M,","L","XXL"]
+    "sizes": ["M","L","XXL"]
   },
   {
     "name": "Full Sleeve Solid Men Quilte",
@@ -19,7 +19,7 @@
    "mainPrice":1300,
    "discountPercent": 51,
    "quantity": 1,
-   "sizes": ["M,","L","XL,","XXL"]
+   "sizes": ["M","L","XL,","XXL"]
   },
 
   {
@@ -42,7 +42,7 @@
     "mainPrice":799,
    "discountPercent": 73,
     "quantity": 1,
-   "sizes": ["M,","L","XXL"]
+   "sizes": ["M","L","XXL"]
   },
   
   {
@@ -54,7 +54,7 @@
     "mainPrice":1799,
    "discountPercent": 30,
     "quantity": 1,
-    "sizes": ["M,","L"]
+    "sizes": ["M","L"]
   },
   {
     "name": "Full Sleeve Solid Men Padded Jacket",
