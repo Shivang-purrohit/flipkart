@@ -1,23 +1,32 @@
 
 
 const Filter_rud = (state, action) => {
-switch (action.type) {
-    case "Sort_change":
-        return{
-            ...state,
-            sort:action.payload
-        }
-        break;
-        case "Size_change" :
-            return {
+    switch (action.type) {
+        case "Sort_change":
+            return{
                 ...state,
-                size:action.payload
+                sort:action.payload
             }
-
-    default:
-        break;
-}
-
-}
-
-export default Filter_rud
+            case "Size_change" :
+                return {
+                    ...state,
+                    size:action.payload
+                }
+                case "brand" :
+                    return {
+                        ...state,
+                        brand:action.payload
+                    }
+                    case "gender" :
+                        return {
+                            ...state,
+                            brand:action.payload
+                        }
+    
+        default:
+            break;
+    }
+    
+    }
+    
+    export default Filter_rud

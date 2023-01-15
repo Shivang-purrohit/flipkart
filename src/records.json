@@ -8,7 +8,7 @@
     "mainPrice":2000,
     "discountPercent": 55,
     "quantity": 1,
-    "sizes": ["M,","L,","XXL"]
+    "sizes": ["M,","L","XXL"]
   },
   {
     "name": "Full Sleeve Solid Men Quilte",
@@ -19,7 +19,7 @@
    "mainPrice":1300,
    "discountPercent": 51,
    "quantity": 1,
-   "sizes": ["M,","L,","XL,","XXL"]
+   "sizes": ["M,","L","XL,","XXL"]
   },
 
   {
@@ -31,7 +31,7 @@
     "mainPrice":1659,
    "discountPercent": 30,
     "quantity": 1,
-    "sizes": ["M,","L,","XXL"]
+    "sizes": ["M,","L","XXL"]
   },
   {
     "name": "Full Sleeve Solid Men Casual",
@@ -42,7 +42,7 @@
     "mainPrice":799,
    "discountPercent": 73,
     "quantity": 1,
-   "sizes": ["M,","L,","XXL"]
+   "sizes": ["M,","L","XXL"]
   },
   
   {
@@ -65,7 +65,7 @@
    "mainPrice":1800,
     "discountPercent": 50,
     "quantity": 1,
-    "sizes": ["M,","L,","XL,","XXL"]
+    "sizes": ["M","L","XL","XXL"]
   },
     {
     "name": "Full Sleeve Solid Men Quilted Jacket",
@@ -76,7 +76,7 @@
     "mainPrice":1100,
    "discountPercent": 55,
     "quantity": 1,
-    "sizes": ["M,","XL"]
+    "sizes": ["M","XL"]
   },
     
     
@@ -100,7 +100,7 @@
    "mainPrice":1800,
     "discountPercent": 50,
     "quantity": 1,
-    "sizes": ["M,","L,","XL,","XXL"]
+    "sizes": ["M","L","XL","XXL"]
   },
   {
     "name": "Full Sleeve Solid Men Padded Jacket",
@@ -111,29 +111,29 @@
    "mainPrice":1800,
     "discountPercent": 50,
     "quantity": 1,
-    "sizes": ["M,","L,","XL,","XXL"]
+    "sizes": ["M","L","XL","XXL"]
   },
   {
     "name": "Full Sleeve Solid Men Padded Jacket",
     "brand":"Breil By Fort Collins",
-    "gender":"Women",
+    "gender":"Men",
     "image":"https://rukminim1.flixcart.com/image/580/696/kulk9zk0/jacket/p/g/o/m-1-no-14733fk-breil-by-fort-collins-original-imag7zrhgzrshc5j.jpeg?q=50",
    "price":3525,
    "mainPrice":1800,
     "discountPercent": 50,
     "quantity": 1,
-    "sizes": ["M,","L,","XL,","XXL"]
+    "sizes": ["M","L","XL","XXL"]
   },
   {
     "name": "Full Sleeve Solid Men Padded Jacket",
     "brand":"Breil By Fort Collins",
-    "gender":"Women",
+    "gender":"Men",
     "image":"https://rukminim1.flixcart.com/image/580/696/kulk9zk0/jacket/p/g/o/m-1-no-14733fk-breil-by-fort-collins-original-imag7zrhgzrshc5j.jpeg?q=50",
    "price":3525,
    "mainPrice":1800,
     "discountPercent": 50,
     "quantity": 1,
-    "sizes": ["M,","L,","XL,","XXL"]
+    "sizes": ["M","L","XL","XXL"]
   }
  
 ]

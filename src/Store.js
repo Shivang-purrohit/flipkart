@@ -9,7 +9,9 @@ const Store = ({children}) => {
     const [product, dis] = useReducer(Reducer, initialstate);
     const [filter, dis_fill] = useReducer(Filter_rud,{
         sort:null,
-        size:null
+        size:null,
+        brand:null,
+        gender:null
     })
 
     return <Context.Provider value={{product, dis, filter, dis_fill}}>
