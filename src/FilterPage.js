@@ -6,7 +6,7 @@
 
  const FilterPage = () => {
   const {
-    filter: { sort, size, brand },
+    filter: { sort, size, brand,  },
     dis_fill,
   } = Use_r_state();
 
@@ -34,6 +34,7 @@
     if(brand){
       newproduct = newproduct.filter((curElem) => curElem.brand === brand);
     }
+   
 
     return newproduct;
   };
@@ -46,15 +47,16 @@
 
 
 
+
   return (
     <div className='container'>
       <div className='section__1'>
         <div>
           <p>Filters</p>
-          <button>Clear filters</button>
+         
         </div>
-        <div>
-          <div class='form-check'>
+        <div >
+          <div class='form-check low__high'>
             <input
               className='form-check-input'
               type='radio'
@@ -93,7 +95,7 @@
            </label>
            </div>
 
-           <div class='form-check'>
+           <div class='form-check low__high'>
              <input
                class='form-check-input'
                type='radio'
@@ -151,9 +153,9 @@
 
 
 
-
+<div className='low__high'>
            {uniqueBrands.map((brand)=>{
-             return <div class='form-check'>
+             return <div class='form-check '>
              <input
              class='form-check-input'
               type='radio'
@@ -172,6 +174,7 @@
              </label>
            </div>
          })}
+         </div>
        </div>
      </div>
 

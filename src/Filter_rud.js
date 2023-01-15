@@ -17,10 +17,10 @@ const Filter_rud = (state, action) => {
                         ...state,
                         brand:action.payload
                     }
-                    case "gender" :
+                    case "clear" :
                         return {
                             ...state,
-                            brand:action.payload
+                            clear:action.payload
                         }
     
         default:

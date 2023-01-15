@@ -11,7 +11,7 @@ const Store = ({children}) => {
         sort:null,
         size:null,
         brand:null,
-        gender:null
+        clear:null
     })
 
     return <Context.Provider value={{product, dis, filter, dis_fill}}>
